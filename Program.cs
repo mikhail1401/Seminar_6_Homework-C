@@ -4,6 +4,40 @@
 // 0, 7, 8, -2, -2 -> 2
 // -1, -7, 567, 89, 223 -> 3
 
+System.Console.WriteLine("Enter the size of the array: ");
+int arraySize = Convert.ToInt32(Console.ReadLine());
+
+int[] array = new int[arraySize];
+
+int positiveCount = 0;
+
+for (int i=0; i<arraySize; i++)
+{
+    Console.Write($"Enter element [{i}]: ");
+    array[i] = Convert.ToInt32(Console.ReadLine());
+
+    if (array[i]>0) positiveCount++; 
+}
+
+Console.Write($" There are {positiveCount} positive numbers among provided");
+
+
+Console.WriteLine("\nTask 41. Option2");
+// When we don't know how many numbers the user will provide.
+
+bool stop = false;
+
+int[] array2;
+int j = 0;
+
+while (stop==false)
+{
+    Console.Write($"Enter element [{j}]: ");
+    array[j] = Convert.ToInt32(Console.ReadLine());
+    j++;
+
+}
+
 
 Console.WriteLine("\nTask 43");
 // Напишите программу, которая найдет точку пересечения двух прямых,
