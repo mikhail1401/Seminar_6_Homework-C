@@ -67,7 +67,3 @@ Console.WriteLine($"Point A ({x}; {y}) is the intersection point of the 2 lanes"
 // x = (b2-b1)/(k1-k2)
 // y=k1*x+b1
 
-y-y = k1x+b1 -k2x-b2
-b2-b1= k1x-k2x
-b2-b1 = x(k1-k2)
-x=(b2-b1)/(k1-k2)
