@@ -1,4 +1,3 @@
-C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.csproj.AssemblyReference.cache
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.AssemblyInfoInputs.cache
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\St
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.pdb
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.genruntimeconfig.cache
 C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\ref\Seminar_6_Homework.dll
+C:\Users\mfedotov.TRADEZERO\OneDrive - TradeZero\Documents\Personal Documents\Studying\C#\Seminar_6_Homework\obj\Debug\net6.0\Seminar_6_Homework.sourcelink.json

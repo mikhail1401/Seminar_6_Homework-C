@@ -19,7 +19,7 @@ for (int i=0; i<arraySize; i++)
     if (array[i]>0) positiveCount++; 
 }
 
-Console.WriteLine($" There are {positiveCount} positive numbers among provided");
+Console.WriteLine($"There are {positiveCount} positive numbers among provided");
 
 
 Console.WriteLine("\nTask 41. Option2");
@@ -46,21 +46,32 @@ Console.WriteLine("\nTask 43");
 // b1=2, k1=5, b2=4, k2=9 -> (-0,5; -0,5)
 
 Console.Write("Enter b1: ");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter k1: ");
-int k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter b2: ");
-int b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Enter k2: ");
-int k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToInt32(Console.ReadLine());
 
-double x = (b2-b1)/(k1-k2);
-double y = k1*x+b1;
+if (k1==k2 && b1==b2)
+{
+    Console.WriteLine("Both lines are the same");
+}
+else if (k1==k2 && b1!=b2)
+{
+    Console.WriteLine("The lines are parallel");
+}
+else
+{
+    double x = (b2-b1)/(k1-k2);
+    double y = k1*x+b1;
 
-Console.WriteLine($"Point A ({x}; {y}) is the intersection point of the 2 lanes");
+    Console.WriteLine($"Point A ({x}; {y}) is the intersection point of the 2 lanes");
+}
 
 // k1*x+b1 = k2*x +b2
 // k1*x - k2*x = b2-b1
