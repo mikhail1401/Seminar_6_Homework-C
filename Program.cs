@@ -25,6 +25,20 @@ Console.WriteLine($"There are {positiveCount} positive numbers among provided");
 Console.WriteLine("\nTask 41. Option2");
 // When we don't know how many numbers the user will provide.
 
+Console.Write("Enter array numbers through the space: ");
+
+int[] ConvertStringToArray(string numbers)
+{
+    int size = 0;
+    for (int i=0; i<numbers.Length; i++)
+    {
+        if (numbers[i] == " ")
+        {
+            size+=1;
+        }
+    }
+}
+
 // bool stop = false;
 
 // int[] array2;
